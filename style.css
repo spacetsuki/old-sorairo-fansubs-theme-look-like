@@ -1,0 +1,155 @@
+/*   
+Theme Name: Old SoraIro Fansubs Theme Look Like
+Theme URI: https://github.com/spacetsuki
+Description: This theme is look like Old SoraIro Fansubs.
+Author: spacetsuki
+Author URI: https://github.com/spacetsuki
+Version: 1.0 Version
+*/
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.jumbotron-fluid {
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url("img/background.jpg");
+}
+
+.jumbotron-fluid h1 {
+    font-weight: 700;
+    color: #fafafa;
+}
+
+nav {
+    margin-right: 80px;
+    margin-left: 80px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.navbar {
+    border: 1px #eaeaea solid;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.nav-item,
+.navbar-brand {
+    margin-right: 20px;
+}
+
+.navbar-collapse ul li a,
+.navbar-collapse ul li .dropdown-menu a,
+.navbar-collapse form.form-inline .form-control,
+.navbar-collapse form.form-inline .btn {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.navbar-collapse ul li a,
+.navbar-collapse ul li .dropdown-menu a {
+    margin-right: 20px;
+    padding: 5px;
+    color: #2c2c2c;
+}
+
+.navbar-collapse ul li .dropdown-menu a {
+    padding-left: 20px;
+}
+
+/* ul.dropdown-menu.show {
+    border: none;
+} */
+
+.cpostlist {
+    margin-right: 80px;
+    margin-left: 80px;
+    padding: 0px 10px;
+    font-size: 13px;
+    font-weight: 700;
+    background-color: #f8f8f8;
+}
+
+.table thead tr th {
+    border-top: none;
+    border-bottom: 2px solid #dddddd;
+}
+
+.table thead tr th,
+.table tbody tr td {
+    padding: 8px 20px;
+}
+
+.th-releaser {
+    width: 10%;
+}
+
+.th-desc {
+    width: 75%;
+}
+
+.th-category {
+    width: 15%;
+    text-align: right;
+}
+
+.cpost {
+    color: #2c2c2c;
+    font-family: 'Lato', sans-serif;
+}
+
+.cpost p {
+    font-size: 14px;
+}
+
+.cpost img {
+    width: 1080px;
+    text-align: center;
+}
+
+.cpost .clink {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-left: 5px #dddddd solid;
+}
+
+.cpost .clink a {
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.pagination .page-numbers {
+    padding: 5px 10px;
+    border: 1px solid #dddddd;
+    background-color: white;
+}
+
+.pagination .page-numbers.current {
+    background-color: #007bff;
+    color: #f8f8f8;
+}
+
+.pagination .page-numbers.next {
+    border-radius: 0 5px 5px 0;
+}
+
+.pagination .page-numbers.prev {
+    border-radius: 5px 0 0 5px;
+}
+
+hr {
+    width: 85%;
+}
+
+.cfooter {
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+}
